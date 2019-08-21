@@ -9,7 +9,7 @@ webpackHotUpdate("static\\development\\pages\\index.js",{
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
@@ -59,7 +59,7 @@ function Header(_ref) {
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
-    as: process.env.BACKEND_URL + '/',
+    as: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -80,7 +80,7 @@ function Header(_ref) {
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/cart",
-    as: process.env.BACKEND_URL + '/cart',
+    as: "/cart",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -93,7 +93,7 @@ function Header(_ref) {
       lineNumber: 18
     },
     __self: this
-  }, "s")))))));
+  }, "Cart")))))));
 }
 
 function mapStateToProps(state) {
@@ -106,12 +106,8 @@ function mapStateToProps(state) {
 
 ;
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, null)(Header));
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/process/browser.js */ "./node_modules/process/browser.js")))
 
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
-false
+/***/ })
 
 })
-//# sourceMappingURL=index.js.7bce3203bdea0352c26b.hot-update.js.map
+//# sourceMappingURL=index.js.bf828dd6a352223b1330.hot-update.js.map
