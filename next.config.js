@@ -6,5 +6,5 @@ module.exports = {
       "/cart": { page: "/cart" },
     }
   },
-  assetPrefix: !debug ? 'https://ivandeiko97.github.io/shop/' : '',
+  assetPrefix: !debug ? 'https://ivandeiko97.github.io/mi/' : '',
 }
