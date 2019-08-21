@@ -13155,52 +13155,28 @@ function (_React$Component) {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_5__["Fragment"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 10
         },
         __self: this
       }, __jsx(_components_header_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 11
         },
         __self: this
-      }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/cart",
-        as: "/cart",
+      }), __jsx("main", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
-      }, __jsx("a", {
-        className: "navigation_cartLink",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }, "s")), __jsx("main", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 12
         },
         __self: this
       }, __jsx(_components_catalog_Catalog__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 13
         },
         __self: this
       })));
-    }
-  }], [{
-    key: "getInitialProps",
-    value: function getInitialProps(_ref) {
-      var reduxStore = _ref.reduxStore,
-          req = _ref.req;
-      var isServer = !!req; // DISPATCH ACTIONS HERE ONLY WITH `reduxStore.dispatch`
-
-      return {};
     }
   }]);
 
