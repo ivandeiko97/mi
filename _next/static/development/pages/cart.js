@@ -13208,31 +13208,22 @@ function (_React$Component) {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_5__["Fragment"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 9
         },
         __self: this
       }, __jsx(_components_header_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 10
         },
         __self: this
       }), __jsx(_components_cart_Cart__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 11
         },
         __self: this
       }));
-    }
-  }], [{
-    key: "getInitialProps",
-    value: function getInitialProps(_ref) {
-      var reduxStore = _ref.reduxStore,
-          req = _ref.req;
-      var isServer = !!req; // DISPATCH ACTIONS HERE ONLY WITH `reduxStore.dispatch`
-
-      return {};
     }
   }]);
 
