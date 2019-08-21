@@ -1185,29 +1185,38 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  static getInitialProps({
+    reduxStore,
+    req
+  }) {
+    const isServer = !!req; // DISPATCH ACTIONS HERE ONLY WITH `reduxStore.dispatch`
+
+    return {};
+  }
+
   render() {
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10
+        lineNumber: 15
       },
       __self: this
     }, __jsx(_components_header_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 16
       },
       __self: this
     }), __jsx("main", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 17
       },
       __self: this
     }, __jsx(_components_catalog_Catalog__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 18
       },
       __self: this
     })));

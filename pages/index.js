@@ -5,6 +5,11 @@ import Link from 'next/link';
 import Catalog from '../components/catalog/Catalog';
 
 class Index extends React.Component {
+  static getInitialProps ({ reduxStore, req }) {
+    const isServer = !!req
+    // DISPATCH ACTIONS HERE ONLY WITH `reduxStore.dispatch`
+    return {}
+  }
   render () {
     return (
     <Fragment>
