@@ -7,7 +7,4 @@ module.exports = {
     }
   },
   assetPrefix: !debug ? 'https://ivandeiko97.github.io/mi/' : '',
-  webpack: (config, options) => {
-    return config
-  }
 }
