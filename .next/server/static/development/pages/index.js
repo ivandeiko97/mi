@@ -1185,53 +1185,29 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  static getInitialProps({
-    reduxStore,
-    req
-  }) {
-    const isServer = !!req; // DISPATCH ACTIONS HERE ONLY WITH `reduxStore.dispatch`
-
-    return {};
-  }
-
   render() {
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 10
       },
       __self: this
     }, __jsx(_components_header_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 11
       },
       __self: this
-    }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-      href: "/cart",
-      as: "/cart",
+    }), __jsx("main", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
-      },
-      __self: this
-    }, __jsx("a", {
-      className: "navigation_cartLink",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 19
-      },
-      __self: this
-    }, "s")), __jsx("main", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 12
       },
       __self: this
     }, __jsx(_components_catalog_Catalog__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 13
       },
       __self: this
     })));
